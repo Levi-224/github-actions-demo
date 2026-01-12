@@ -1,11 +1,12 @@
 {
   "name": "github-actions-demo",
   "version": "1.0.0",
-  "description": "Repo for demo of github actions accenture",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "node test.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Levi-224/github-actions-demo.git"
@@ -22,17 +23,6 @@
     "express": "^5.2.1"
   }
 }
-{
-  "name": "github-actions-demo",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-    "express": "^4.21.1"
-  }
-}
+
 
 
